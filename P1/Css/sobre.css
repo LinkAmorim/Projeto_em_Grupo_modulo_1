@@ -1,0 +1,131 @@
+/* Cor padrão da fonte */
+body {
+    font-family: monospace;
+    color: white
+}
+#menu-h{
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+    font-size: 20px;
+    font-family: monospace;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+
+}
+#menu-h ul li {
+    display: inline;
+}
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition:background.5s;
+
+}
+#menu-h ul li a:hover {
+
+    background-color: burlywood
+}
+#menu-h ul li:last-child a:hover {
+    
+    background-color:burlywood
+}
+#fundo{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+/* Fonte Dela Gothic One do google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+* {
+    font-family: 'Dela Gothic One', cursive;
+}
+
+/* container para as divs */
+.container {
+    border: 0px solid black;
+    width: 1300px;
+    height: 205px;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 120px;
+    justify-content: space-around;
+
+}
+
+/* divs com blur e sombreamento (segunda classe "texto" e classe "title") */
+.child_1 {
+    border: 2px solid burlywood;
+    background-color: transparent;
+    width: 500px;
+    height: 250px;
+    margin-right: 100px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    box-shadow: 2px 2px black;
+    border-radius: 10%;
+
+
+}
+
+.child_2 {
+    border: 2px solid burlywood;
+    background-color: transparent;
+    width: 500px;
+    height: 250px;
+    margin-right: 20px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    box-shadow: 2px 2px black;
+    border-radius: 10%;
+}
+
+.child_3 {
+    border: 2px solid burlywood;
+    background-color: transparent;
+    width: 500px;
+    height: 250px;
+    margin-left: 80px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+    box-shadow: 2px 2px black;
+    border-radius: 10%;
+}
+
+
+/* Sombreamento do texto, do título e botão para voltar a página */
+
+.texto {
+    text-shadow: 3px 3px black;
+}
+
+.title {
+    text-shadow: 3px 3px black;
+    box-shadow: 1px 1px black;
+
+}
+
+span.a {
+    display: inline;
+    /*the default for span*/
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid burlywood;
+    box-shadow: 2px 2px black;
+    border-radius: 20%;
+}

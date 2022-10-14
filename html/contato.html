@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contatos.css">
+    <title>Faça o seu pedido</title>
+</head>
+<body>
+    <body>
+
+        <!-- estrutura principal do formulario de pedidos -->
+        <div class="title">
+            <div id="fundo">
+                <div id="menu-h">
+                    <ul>
+                        <li><a href="../html/index.html">Home</a></li>
+                        <li><a href="../html/cardapio.html">Nosso cardápio</a></li>
+                        <li><a href="../html/contato.html">Faça seu pedido</a></li>
+                        <li><a href="../html/sobre.html">Nossa equipe</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
+      
+        <div class="header">
+          <img id="logo" width="150px" height="150px" src="../imagens/HamburgueriaMonster.png" style="border-radius: 4rem;" >
+          <h1>Faça o seu pedido</h1>
+        </div>
+        <div class="parrafo">
+        <p id="parrafo1">Preencha o formulário a seguir para fazer seu pedido e redirecioná-lo para um de nossos consultores via whatsapp.
+
+        </p>
+       
+      </div>
+    
+          <div class="container">
+              <form action="">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="fname">Digite seu nome:</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" required id="nome" name="nome" placeholder="Seu nome.." >
+                  </div>
+                </div>
+                <br>
+    
+                <!--Aqui serão oferecido os produtos-->
+    
+                <div class="row">
+                  <div class="col-25">
+                    <label for="lanche">Selecioe o Lanche desejado:</label>
+                  </div>
+                  <div class="col-75">
+                    <select id="endereco" name="endereco" required>
+                      <option value="Big bacon">1- Big Bacon</option>
+                      <option value="big burguer">2- Big burger</option>
+                      <option value="Big Classic">3- Big Classic</option>
+                      <option value="Big Double">4- Big Double</option>
+                      <option value=" Cheddar SenacMc">5-  Cheddar SenacMc</option>
+                      <option value="Triplo Bacon">6- Triplo Bacon</option>
+                      <option value=" Duplo Quarterão">7-  Duplo Quarterão</option>
+                      <option value="Quarterão">8- Quarterão</option>
+                      <option value="Batata frita c/ Bacon e Cheddar">10- Porção de Batata</option>
+                      
+    
+                      
+                    </select>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="endereco">Endereço, Bairro, Rua e ponto de referência:</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" required id="endereco" name="endereco" placeholder="Escreve o seu endereço completo..">
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-25">
+                      <label for="fname">Observações do pedido:</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" required id="info" name="info" placeholder="Pedidos adicionais.." >
+                    </div>
+                  </div>
+  
+                <div class="row">
+                  <div class="col-25">
+                    <label for="entrega">Hora da entrega.</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="time" required id="entrega" name="entrega" min="17:00" max="02:00"  style="width: 100%; height: 2rem;">
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div class="col-25">
+                    <label for="telefone">Digite o seu número de contato</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="tel" required id="telefone" name="telefone" placeholder="Número do seu whatsapp.." style="width: 100%; height: 2rem;" >
+                  </div>
+                </div>
+                <br>
+                <P id="aviso" class="aviso"> Ao clicar no botão, você será redirecionado via whatsapp onde serão especificados os dados de pagamento e envio.
+
+                </P>
+                
+
+                <div class="row">
+                  <br>
+                  <center><button id="submit" class="button" >Enviar a WhatsApp</button></center>
+                </div>
+                
+              </form>
+            </div>
+            <br>
+    
+           
+        
+          <script src="../js/script.js"></script>
+    
+      </body>
+    </html>
+</body>
+</html>

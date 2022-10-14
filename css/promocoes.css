@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url("./IMG/Background.png"); */
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.logo_1 {
+    /* config1 da logo */
+    padding-left: 44%;
+}
+
+#logo_2 {
+    /* config2 da logo */
+    height: 200px;
+    width: 200px;
+}
+
+#combos {
+    /* config da area combos */
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    border-bottom: 4px solid white;
+    margin: 30px;
+}
+
+/* container pai */
+
+.box_menu {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*  Childs */
+
+.box_item_1 {
+    /* box_item_1 até o 08 são as childs do box_menu */
+    width: 50%;
+    height: 170px;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-right: 150px;
+
+}
+
+#lanche_01 {
+    /* id lanche_01 até 08 = config das imagens dos lanches */
+    width: 200px;
+    float: right;
+    margin-top: -100px;
+    margin-right: -110px;
+
+}
+
+
+.box_item_2 {
+    width: 50%;
+    height: 170px;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-right: 150px;
+
+}
+
+#lanche_02 {
+    width: 200px;
+    float: right;
+    margin-top: -100px;
+    margin-right: -110px;
+
+}
+
+.box_item_3 {
+    width: 50%;
+    height: 170px;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 150px;
+
+}
+
+#lanche_03 {
+    width: 250px;
+    float: right;
+    margin-top: -150px;
+    margin-right: -145px;
+
+}
+
+.box_item_4 {
+    width: 50%;
+    height: 170px;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 150px;
+
+}
+
+#lanche_04 {
+    width: 200px;
+    float: right;
+    margin-top: -100px;
+    margin-right: -110px;
+
+}
+
+
+.box_item_5 {
+    width: 50%;
+    height: 170px;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-right: 150px;
+
+}
+
+#lanche_05 {
+    width: 200px;
+    float: right;
+    margin-top: -110px;
+    margin-right: -110px;
+
+}
+
+.box_item_6 {
+    width: 50%;
+    height: 170px;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-right: 150px;
+
+}
+
+#lanche_06 {
+    width: 250px;
+    float: right;
+    margin-top: -150px;
+    margin-right: -130px;
+
+}
+
+.box_item_7 {
+    width: 50%;
+    height: 170px;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-right: 150px;
+
+}
+
+#lanche_07 {
+    width: 250px;
+    float: right;
+    margin-top: -135px;
+    margin-right: -140px;
+
+}
+
+.box_item_8 {
+    width: 50%;
+    height: 170px;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-right: 150px;
+
+}
+
+#lanche_08 {
+    width: 270px;
+    float: right;
+    margin-top: -150px;
+    margin-right: -140px;
+
+}
+
+/* fim das childs */
+
+.lanche {
+    width: 250px;
+    float: right;
+    margin-top: -100px;
+    margin-right: -80px;
+}
+
+.nome_combo {
+    font-size: 25px;
+}
+
+.preco_combo {
+    font-size: 20px;
+}
+
+#menu-x {
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+    font-size: 20px;
+    font-family: monospace;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+
+#menu-x ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+
+}
+
+#menu-x ul li {
+    display: inline;
+}
+
+#menu-x ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background.5s;
+
+}
+
+#menu-x ul li a:hover {
+
+    background-color: burlywood
+}
+
+#menu-x ul li:last-child a:hover {
+
+    background-color: burlywood
+}
+
