@@ -1,1 +1,2 @@
-# Projeto_em_Grupo
+# Projeto em grupo
+
